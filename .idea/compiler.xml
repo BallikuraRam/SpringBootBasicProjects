@@ -9,12 +9,14 @@
         <module name="Multi_Tenancy_App" />
         <module name="FeignClientService" />
         <module name="JwtAuthenticationAndAuthorization" />
+        <module name="CrudOperations" />
         <module name="PaginationAndSorting" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CrudOperations" options="-parameters" />
       <module name="FeignClientService" options="-parameters" />
       <module name="JwtAuthenticationAndAuthorization" options="-parameters" />
       <module name="Multi_Tenancy_App" options="-parameters" />

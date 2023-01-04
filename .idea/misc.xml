@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/Multi_Tenancy_App/pom.xml" />
         <option value="$PROJECT_DIR$/FeignClientService/pom.xml" />
         <option value="$PROJECT_DIR$/JwtAuthenticationAndAuthorization/pom.xml" />
+        <option value="$PROJECT_DIR$/CrudOperations/pom.xml" />
       </list>
     </option>
   </component>
