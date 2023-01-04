@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Multi_Tenancy_App" />
         <module name="FeignClientService" />
+        <module name="JwtAuthenticationAndAuthorization" />
         <module name="PaginationAndSorting" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="FeignClientService" options="-parameters" />
+      <module name="JwtAuthenticationAndAuthorization" options="-parameters" />
       <module name="Multi_Tenancy_App" options="-parameters" />
     </option>
   </component>
